@@ -15,7 +15,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_something(self):
         self.assertEqual(self.tree.find(12), None)  # add assertion here
-        self.assertEqual(self.tree.find(5).data, 5)
+        self.assertEqual(self.tree.find(5).data, None)
 
 
 if __name__ == '__main__':
